@@ -3,8 +3,8 @@
 
 #使用教程
 ```
-powershell
- (curl https://go28.cn/winget).content | iex
+#powershell 
+(curl https://go28.cn/winget).content | iex
 ```
 
 ### 1.使用微软应用商店安装
