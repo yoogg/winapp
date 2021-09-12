@@ -6,7 +6,7 @@ Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 #下载地址
-$DownloadUrl = "https://d.go28.cn/3966850/Microsoft.DesktopAppInstaller_8wekyb3d8bbwe.msixbundle"
+$DownloadUrl = "https://go28.cn/wingetapp"
 #下载到Temp目录
 $TempPath = $env:TEMP
 #下载的文件名
