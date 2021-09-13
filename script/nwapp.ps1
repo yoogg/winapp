@@ -38,7 +38,5 @@ function apptool
                 Clear-Host []
                 apptool}
     if($id -eq 9){ exit }
-     else{ "输入错误";apptool }
-
 }
 apptool
