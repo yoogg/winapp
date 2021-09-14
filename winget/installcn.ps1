@@ -34,8 +34,8 @@ function wingettool
     "[2]升级全部软件"
     "[3]导出全部软件列表到桌面app.json"
     "[4]导入全部软件从桌面app.json"
-    "[5]清屏"
-    "[6]退出"
+    "[0]清屏"
+    "[9]退出"
     $id=Read-Host "请输入数字"
     if($id -eq 1){winget list
                 wingettool
@@ -54,11 +54,10 @@ function wingettool
                 winget import -i app.json
                 "操作完成"
                 wingettool}
-    if($id -eq 5){
+    if($id -eq 0){
                 Clear-Host []
                 wingettool}
-        else{ exit }
-
+    if($id -eq 9){ exit}
 }
 
 #判断是否安装winget
