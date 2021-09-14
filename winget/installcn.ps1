@@ -68,5 +68,8 @@ winget
 wingettool
 }catch{
     "未安装winget,Not found"
-    inswinget
+    "Are You Sure? [Y/n]"
+    "---[y]确认安装---[n]取消安装 "
+    $a=Read-Host "请输入[Y/n]"
+    if ($a -match "y"){inswinget}else{"已取消安装"}
 }
