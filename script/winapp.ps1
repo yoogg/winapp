@@ -12,7 +12,7 @@ function Download($url, $targetFile)
     else{
    $responseStream = $response.GetResponseStream()
    $targetStream = New-Object -TypeName System.IO.FileStream -ArgumentList $targetFile, Create
-   $buffer = new-object byte[] 1000KB
+   $buffer = new-object byte[] 1024KB
    $count = $responseStream.Read($buffer,0,$buffer.length)
    $downloadedBytes = $count
    while ($count -gt 0)
