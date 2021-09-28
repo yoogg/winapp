@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force;
 #下载文件
 function Download($url, $targetFile)
 {

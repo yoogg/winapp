@@ -1,3 +1,4 @@
+Set-ExecutionPolicy Bypass -Scope Process -Force;
 function inswinget  
 {
 #添加程序集
