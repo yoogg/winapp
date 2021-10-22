@@ -21,7 +21,7 @@ function apptool
     "[0]清屏"
     "[9]退出"
     $id=Read-Host "请输入命令"
-    if ($id -match "weixin" -or $id -eq "all" ){"正在安装微信";winapp https://mbi.go28.cn/app/WeChat_C1018.exe}
+    if ($id -match "wechat" -or $id -eq "all" ){"正在安装微信";winapp https://mbi.go28.cn/app/WeChat_C1018.exe}
     if ($id -match "wecom" -or $id -eq "all" ){"正在安装企业微信";winapp https://mbi.go28.cn/app/WeCom_3.1.8.3015_100004.exe}
     if ($id -match "7zip" -or $id -eq "all" ){"正在安装7zip压缩软件";winapp https://mbi.go28.cn/app/7z1900-x64.msi}
     if ($id -match "pcqq" -or $id -eq "all" ){"正在安装QQ";winapp https://mbi.go28.cn/app/QQ9.5.0.27852.exe}
