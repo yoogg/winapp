@@ -21,19 +21,19 @@ function apptool
     "[0]清屏"
     "[9]退出"
     $id=Read-Host "请输入命令"
-    if ($id -match "wechat" -or $id -eq "all" ){"正在安装微信";winapp https://mbi.go28.cn/app/WeChat_C1018.exe}
-    if ($id -match "wecom" -or $id -eq "all" ){"正在安装企业微信";winapp https://mbi.go28.cn/app/WeCom_3.1.8.3015_100004.exe}
-    if ($id -match "7zip" -or $id -eq "all" ){"正在安装7zip压缩软件";winapp https://mbi.go28.cn/app/7z1900-x64.msi}
-    if ($id -match "pcqq" -or $id -eq "all" ){"正在安装QQ";winapp https://mbi.go28.cn/app/QQ9.5.0.27852.exe}
-    if ($id -match "wemeet" -or $id -eq "all" ){"正在安装腾讯会议";winapp https://mbi.go28.cn/app/TencentMeeting_2.18.3.403.publish.exe}
-    if ($id -match "qqpinyin" -or $id -eq "all" ){"正在安装QQ拼音";winapp https://mbi.go28.cn/app/QQPinyin_Setup_6.6.6304.400.exe}
-    if ($id -match "edge" -or $id -eq "all" ){"正在安装微软edge浏览器";winapp https://mbi.go28.cn/app/MicrosoftEdgeEnterpriseX64.msi}
-    if ($id -match "chrome" -or $id -eq "all" ){"正在安装谷歌浏览器";winapp https://mbi.go28.cn/app/GoogleChromeStandaloneEnterprise64.msi}
-    if ($id -match "vscode" -or $id -eq "all" ){"正在安装vscode编辑器";winapp https://mbi.go28.cn/app/VSCodeSetup-x64-1.60.0.exe}
-    if ($id -match "wps" -or $id -eq "all" ){"正在安装wps";winapp https://mbi.go28.cn/app/WPSOffice_11.2.0.10294.exe}
-    if ($id -match "teams" -or $id -eq "all" ){"正在安装teams";winapp https://mbi.go28.cn/app/Teams_windows_x64.msi}
-    if ($id -match "onedrive" -or $id -eq "all" ){"正在安装onedrive";winapp https://mbi.go28.cn/app/OneDriveSetup.exe}
-    if ($id -match "xmind" -or $id -eq "all" ){"正在安装xmind";winapp https://mbi.go28.cn/app/XMind-for-Windows-64bit-11.0.2-202107130605.exe}
+    if ($id -match "wechat" -or $id -eq "all" ){"正在安装微信";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/WeChatSetup.exe}
+    if ($id -match "wecom" -or $id -eq "all" ){"正在安装企业微信";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/WeCom.exe}
+    if ($id -match "7zip" -or $id -eq "all" ){"正在安装7zip压缩软件";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/7z2106-x64.exe}
+    if ($id -match "pcqq" -or $id -eq "all" ){"正在安装QQ";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/PCQQ.exe}
+    if ($id -match "wemeet" -or $id -eq "all" ){"正在安装腾讯会议";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/TencentMeeting.exe}
+    if ($id -match "qqpinyin" -or $id -eq "all" ){"正在安装QQ拼音";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/QQPinyin.exe}
+    if ($id -match "edge" -or $id -eq "all" ){"正在安装微软edge浏览器";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/MicrosoftEdgeEnterpriseX64.msi}
+    if ($id -match "chrome" -or $id -eq "all" ){"正在安装谷歌浏览器";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/ChromeStandaloneSetup64.exe}
+    if ($id -match "vscode" -or $id -eq "all" ){"正在安装vscode编辑器";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/VSCodeSetup-x64.exe}
+    if ($id -match "wps" -or $id -eq "all" ){"正在安装wps";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/WPS_2052_11.8.2.8361.exe}
+    if ($id -match "teams" -or $id -eq "all" ){"正在安装teams";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/Teams_windows_x64.exe}
+    if ($id -match "onedrive" -or $id -eq "all" ){"正在安装onedrive";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/OneDriveSetup.exe}
+    if ($id -match "xmind" -or $id -eq "all" ){"正在安装xmind";winapp http://nw.hadeliang.cn/chfs/shared/PC/APP/XMind-ZEN-Update-2019-for-Windows-64bit-9.2.0-201904271935.exe}
     if($id -eq 0){
                 Clear-Host []
                 apptool}
